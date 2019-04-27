@@ -1,0 +1,67 @@
+@charset "UTF-8";
+*{
+    padding:0;
+    margin:0;
+}
+.Container-fluid{
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-image: url(HeaderImage.jpg);
+    width:1150px;
+    height:500px;
+}
+#Nav{
+    width:800;
+}
+#Logo{
+    float:left;
+    margin-top:20px;
+    margin-left: 10px;
+}
+#Logo #img{
+    display: inline-block;
+    vertical-align:top;
+    width:250px;
+    height: 100px;
+}
+#Logo #Divh1{
+    display: inline-block;
+    font-family: 'Dosis', sans-serif;
+    color: brown;
+    text-decoration: underline;
+}
+nav ul{
+	list-style:none;
+	}
+nav ul li a{
+    font-size:140%;
+	font-family: 'Roboto',sans-serif;
+	text-align:center;
+	display:block;
+	width:210px;
+	text-decoration:none;
+	color: brown;
+	padding:10px;
+	background-color:transparent;
+    float:right;
+    border-left: 2px solid white;
+}
+nav ul li a:hover{
+	background-color:transparent;
+    color:black;
+}
+#thickBorder{
+margin-top:100px;
+width:1150px;
+height: 30px;
+background-color:black;
+}
+#contentUpper{
+    margin-top: 20px;
+    width:1140px;
+    height: auto;
+    text-align: center;
+}
+#contentUpper h3{
+    font-family: 'Roboto',sans-serif;
+}

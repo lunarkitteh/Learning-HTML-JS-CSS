@@ -1,0 +1,57 @@
+@charset "uft-8";
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    margin: 0px 40px 25px 40px;
+background-image :url(BackgroundH2.jpg);
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+border-color: black;
+}
+
+
+table{
+    border : 2px solid #FFF;
+    font-family:sans-serif;
+    color: white;
+}
+
+div{
+    background-color:gainsboro;
+    align-content: center
+    margin : 3%;
+    text-align:center;
+    border: 4px solid #000;
+   }
+ 
+p{
+    border:5px solid #FFF;
+}
+
+#navigation ul{
+    list-style: none;
+}
+
+#navigation ul li a{
+    display: block;
+    background-color:black;
+    border : 1px solid grey;
+    padding : 10px;
+    text-decoration: none;
+    text-align: center;
+    float:left;
+    color:white;
+    width:180px;
+}
+
+img{
+    border:5px solid white;
+
+}
+#navigation ul li a:hover{
+    background-color:#933;
+}
+
+

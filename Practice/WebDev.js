@@ -1,0 +1,1 @@
+comfirm("Mobile application and web haven't established yet");

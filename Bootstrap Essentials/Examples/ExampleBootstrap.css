@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+*{
+    padding :0;
+    margin:0;
+}
+.container-fluid{
+    background-color:lightgrey;
+}
+h1{
+    font-family: 'Dosis', sans-serif;
+}
+h2{
+    font-family: 'Roboto',sans-serif;
+}
+.page-header{
+  color:saddlebrown;
+  background-color:linen;  
+}
+table{
+    background-color: linen;
+}
+#Contain{
+    height:600px;
+    width:1200px;
+}
+#Left{
+    align-items: center;
+    float : left;
+    margin-left: 10px;
+    width:auto;
+    height:236;
+    border:1px solid grey;
+    border-radius: 8px;
+}
+
+#Right{
+    float :right;
+    width:500px;
+    height:600px;
+    margin-right:10px;
+    margin-left:300px;
+    border:1px solid grey;
+        border-radius: 8px;
+        align-items: center;
+        text-align: center;
+}
+#Right h1{
+    font-family: 'Pacifico', cursive;
+    color:darkgoldenrod;
+}
+#Right h2{
+    font-family: 'Dosis',sans-serif;
+}
+.jumbotron h2{
+    margin-left: 15px;
+    font-family: 'Pacifico',cursive;
+        color:darkgoldenrod
+}
+
+#RandomData h2{
+font-family: 'Roboto',sans-serif;
+}
+
